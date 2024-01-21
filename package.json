@@ -2,7 +2,6 @@
   "name": "nameste-react",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -11,5 +10,18 @@
     "url": "(https://github.com/arvind520/react_prac.git)"
   },
   "author": "Arvind",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browerslist":[
+    "last 2 Chrome version",
+    "last 2 Firefox version",
+    "last 5 version"
+  ]
 }
